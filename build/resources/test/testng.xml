@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+<!--    <test name="Tests">-->
+<!--        <groups>-->
+<!--            <run>-->
+<!--                <include name="name"/>-->
+<!--            </run>-->
+<!--        </groups>-->
+<!--        <classes>-->
+<!--            <class name="api.tests.TestNgTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+    <test name="Param1">
+        <parameter name="firstName" value="George" />
+        <parameter name="lastName" value="Williams" />
+
+        <classes>
+            <class name="api.tests.TestNgTest">
+                <methods>
+                    <include name="createContactTestParam"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Param2">
+        <parameter name="firstName" value="Jeffery" />
+        <parameter name="lastName" value="Grant" />
+        <classes>
+            <class name="api.tests.TestNgTest">
+                <methods>
+                    <include name="createContactTestParam"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Param3">
+        <parameter name="firstName" value="Linda" />
+        <parameter name="lastName" value="Smith" />
+        <classes>
+            <class name="api.tests.TestNgTest">
+                <methods>
+                    <include name="createContactTestParam"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Param4">
+        <parameter name="firstName" value="Betty" />
+        <parameter name="lastName" value="Gonzalez" />
+        <classes>
+            <class name="api.tests.TestNgTest">
+                <methods>
+                    <include name="createContactTestParam"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Param5">
+        <parameter name="firstName" value="Kevin" />
+        <parameter name="lastName" value="Joseph" />
+        <classes>
+            <class name="api.tests.TestNgTest">
+                <methods>
+                    <include name="createContactTestParam"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Param6">
+        <parameter name="firstName" value="Priscilla" />
+        <parameter name="lastName" value="Chandler" />
+        <classes>
+            <class name="api.tests.TestNgTest">
+                <methods>
+                    <include name="createContactTestParam"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
