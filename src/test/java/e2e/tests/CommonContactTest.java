@@ -11,7 +11,6 @@ import java.io.IOException;
 public class CommonContactTest extends TestBase {
     Faker faker = new Faker();
 
-
     @Test(priority = 1)
     public void userCanCreateEditRemoveContact() throws InterruptedException, IOException, AWTException {
         String firstName = faker.internet().uuid();
