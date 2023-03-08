@@ -17,7 +17,7 @@ public class TestBase {
 
     @BeforeMethod
     public void setupTest() throws MalformedURLException {
-        app.init();
+        app.init(false);//true выбор драйвера
     }
 
     @BeforeMethod
